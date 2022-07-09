@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ConsoleAppforDelegates/1.0.0": {
+        "dependencies": {
+          "ClassLibraryDelegates": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleAppforDelegates.dll": {}
+        }
+      },
+      "ClassLibraryDelegates/1.0.0": {
+        "runtime": {
+          "ClassLibraryDelegates.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleAppforDelegates/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryDelegates/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
