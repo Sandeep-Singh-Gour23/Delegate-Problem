@@ -4,23 +4,22 @@ namespace ClassLibraryDelegates
 {
     public class Delegates
     {
-        public delegate void OnWord(string s);
-        public delegate void OnNumber(string s);
-        public delegate void OnJunk(string s);
+        public delegate string OnWord(string s);
+        public delegate string OnNumber(string s);
+        public delegate string OnJunk(string s);
 
 
-        public static void isWord(string s)
+        public static string isWord(string s)
         {
-            Console.WriteLine("onWord delegate called. Entered value is a word i.e. " + s);
+            return $"onWord delegate called. Entered value is a word i.e. {s}";
         }
-        public static void isNumber(string s)
+        public static string isNumber(string s)
         {
-            Console.WriteLine("onNumber delegate called. Entered value is a number i.e. " + s);
+            return $"onNumber delegate called. Entered value is a number i.e. {s}";
         }
-        public static void isJunk(string s)
+        public static string isJunk(string s)
         {
-            Console.WriteLine("onJunk delegate called. Entered value is a junk i.e." +
-                " " + s);
+            return $"onJunk delegate called. Entered value is a junk i.e. {s}";
         }
     }
 }

@@ -17,20 +17,25 @@ namespace ClassLibraryDelegates
 
                 if (input == "quit")
                     break;
-
-                else if (input.All(Char.IsLetter))
-                    word(input);
-
-                else if (input.All(Char.IsDigit))
-                    num(input);
-
-                else if (input.All(Char.IsLetterOrDigit))
-                    word(input);
-
-                else junk(input);
-
-
+                string res = GetResponse(input, word, num, junk);
+                Console.WriteLine(res);
             }
+        }
+        public string GetResponse(string input, Delegates.OnWord word, Delegates.OnNumber num, Delegates.OnJunk junk)
+        {
+           
+            if (input.All(Char.IsLetter))
+               return word(input);
+
+            else if (input.All(Char.IsDigit))
+               return num(input);
+
+            else if (input.All(Char.IsLetterOrDigit))
+               return word(input);
+
+            else return junk(input);
+
+
         }
     }
 }

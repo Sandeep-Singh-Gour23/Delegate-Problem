@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Augmento Labs\\ConsoleAppforDelegates\\ConsoleAppforDelegates.csproj",
+      "projectUniqueName": "D:\\Augmento Labs\\updatedDelegateProblem\\ConsoleAppforDelegates\\ConsoleAppforDelegates.csproj",
       "projectName": "ConsoleAppforDelegates",
-      "projectPath": "D:\\Augmento Labs\\ConsoleAppforDelegates\\ConsoleAppforDelegates.csproj",
+      "projectPath": "D:\\Augmento Labs\\updatedDelegateProblem\\ConsoleAppforDelegates\\ConsoleAppforDelegates.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Augmento Labs\\ConsoleAppforDelegates\\obj\\",
+      "outputPath": "D:\\Augmento Labs\\updatedDelegateProblem\\ConsoleAppforDelegates\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Augmento Labs\\ClassLibraryDelegates\\ClassLibraryDelegates.csproj": {
-              "projectPath": "D:\\Augmento Labs\\ClassLibraryDelegates\\ClassLibraryDelegates.csproj"
+            "D:\\Augmento Labs\\updatedDelegateProblem\\ClassLibraryDelegates\\ClassLibraryDelegates.csproj": {
+              "projectPath": "D:\\Augmento Labs\\updatedDelegateProblem\\ClassLibraryDelegates\\ClassLibraryDelegates.csproj"
             }
           }
         }

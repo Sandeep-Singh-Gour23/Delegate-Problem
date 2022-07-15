@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B7NJo1Va7cNl4b30nz/cEUP6hqke8Oo1yyti74eXciV6kxKZamULSLaCp8ly/ZZdH+0lNT65egkixaP3JUEboQ==",
+  "dgSpecHash": "Ba4hSjfvJxRd2xNPDzP+bkVSUtgd3CTyZ3L3+tzWGI/PGA69263++ZOEaA387vwT/5qXtmgIpoABYFdK0Zl6/A==",
   "success": true,
-  "projectFilePath": "D:\\Augmento Labs\\ClassLibraryDelegates\\ClassLibraryDelegates.csproj",
+  "projectFilePath": "D:\\Augmento Labs\\updatedDelegateProblem\\ClassLibraryDelegates\\ClassLibraryDelegates.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
